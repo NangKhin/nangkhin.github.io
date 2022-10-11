@@ -1,0 +1,163 @@
+/* PRODUCTS */
+.product {
+    margin-top: 3%;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.product .slotitems {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .slot {
+    width: 350px;
+    height: min-content;
+    border: 5px solid aliceblue;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+.slotbody img {
+    width: 350px;
+    border-radius: 5%;
+}
+
+.slotbody .slotfooter {
+    display: flex;
+    justify-content: center;
+}
+
+.slotfooter {
+    text-align: center;
+}
+
+.slotfooter button {
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2%;
+}
+
+.product .slot2 {
+    width: 350px;
+    height: min-content;
+    border: 5px solid aliceblue;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+.slotbody2 img {
+    width: 350px;
+    border-radius: 5%;
+}
+
+.slotbody2 .slotfooter2 {
+    display: flex;
+    justify-content: center;
+}
+
+.slotfooter2 {
+    text-align: center;
+}
+
+.slotfooter2 button {
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2%;
+}
+
+.product .slot3 {
+    width: 350px;
+    height: min-content;
+    border: 5px solid aliceblue;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+.slotbody3 img {
+    width: 350px;
+    border-radius: 5%;
+}
+
+.slotbody3 .slotfooter3 {
+    display: flex;
+    justify-content: center;
+}
+
+.slotfooter3 {
+    text-align: center;
+}
+
+.slotfooter3 button {
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2%;
+}
+
+.product .slotitems2{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product .slot4 {
+    width: 350px;
+    height: min-content;
+    border: 5px solid aliceblue;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+.slotbody4 img {
+    width: 350px;
+    border-radius: 5%;
+}
+
+.slotbody4 .slotfooter4 {
+    display: flex;
+    justify-content: center;
+}
+
+.slotfooter4 {
+    text-align: center;
+}
+
+.slotfooter4 button {
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2%;
+}
+
+.product .slot5 {
+    width: 350px;
+    height: min-content;
+    border: 5px solid aliceblue;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+
+.slotbody5 img {
+    width: 350px;
+    border-radius: 5%;
+}
+
+.slotbody5 .slotfooter5 {
+    display: flex;
+    justify-content: center;
+}
+
+.slotfooter5 {
+    text-align: center;
+}
+
+.slotfooter5 button {
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2%;
+}
