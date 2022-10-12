@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>No. </th>
+                <th>Name </th>
+                <th>Unit Price </th>
+                <th>Quantity </th>
+                <th>SubTotal </th>
+            </tr>
+        </thead>
+        <tbody id="mydata">
+                
+        </tbody>
+    </table>
+    
+
+    <script>
+        let name1 = prompt("Enter item1 name: ");
+        let name2 = prompt("Enter item2 name: ");
+        let name3 = prompt("Enter item3 name: ");
+
+        let price1 = parseInt(prompt("Enter " + name1 + " unit price: "));
+        let price2 = parseInt(prompt("Enter " + name2 + " unit price: "));
+        let price3 = parseInt(prompt("Enter " + name3 + " unit price: "));
+
+        let qtty1 = parseInt(prompt("Enter " + name1 + " quantity: "));
+        let qtty2 = parseInt(prompt("Enter " + name2 + " quantity: "));
+        let qtty3 = parseInt(prompt("Enter " + name3 + " quantity: "));
+
+        let subt1 = price1 * qtty1;
+        let subt2 = price2 * qtty2;
+        let subt3 = price3 * qtty3;
+        let total = subt1 + subt2 + subt3;
+
+        // document.write("Your Shopping Items: <br>")
+        // document.write(name1+ ": "+ price1+ " * "+ qtty1+ " = "+subt1 + "<br>");
+        // document.write(name2 + ": " + price2 + " * " + qtty2 + " = " + subt2 + "<br>");
+        // document.write(name3 + ": " + price3 + " * " + qtty3 + " = " + subt3 + "<br>");
+        // document.write("Total: " + total);
+
+        let html = ` 
+        <tr> <td>1</td> <td>${name1}</td> <td>${price1}</td> <td>${qtty1}</td> <td>${subt1}</td>
+          </td> </tr> 
+        <tr> <td>2</td> <td>${name2}</td> <td>${price2}</td> <td>${qtty2}</td> <td>${subt2}</td>
+          </td> </tr> 
+        <tr> <td>3</td> <td>${name3}</td> <td>${price3}</td> <td>${qtty3}</td> <td>${subt3}</td>
+          </td> </tr>
+        <tr><td colspan="4">Total</td> <td>${total}</td></tr>
+        `;
+        document.getElementById("mydata").innerHTML = html;
+</script>
+
+</body>
+</html>
